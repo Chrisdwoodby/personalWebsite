@@ -1,5 +1,4 @@
 import background from '../dist/about.png';
-import test from '../dist/test.png';
 import Container from 'react-bootstrap/Container';
 
 export default function About() {
@@ -10,7 +9,6 @@ export default function About() {
         to stretch the length neccessary v djfjfjfjfjfjfjfv fdlhjvbwlrti
         gnadiuvnqrtliugnqrliubnq;uvnrqunb
       </article>
-      <img id="test" src={test}/>
     </Container>
   )
 }
