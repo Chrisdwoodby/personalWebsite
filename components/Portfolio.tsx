@@ -17,26 +17,6 @@ export default function Portfolio() {
                 </div>
             </div>
         </div>
-        <div id="main">
-            <div id="card">
-                <div id="front">
-                  <img id="test" src={test}/>
-                </div>
-                <div id="back">
-                  about my flight tracker
-                </div>
-            </div>
-        </div>
-        <div id="main">
-            <div id="card">
-                <div id="front">
-                  <img id="test" src={test}/>
-                </div>
-                <div id="back">
-                  about my flight tracker
-                </div>
-            </div>
-        </div>
         </Row>
     </Container>
   )
