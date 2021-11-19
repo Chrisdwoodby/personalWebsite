@@ -30,7 +30,7 @@ export default function Navigation(props:any) {
     props.viewPortfolio(true);
     props.renderPage()
   }
-  const mql = window.matchMedia('(max-width: 300px)');
+  const mql = window.matchMedia('(max-width: 600px)');
   let mobileView = mql.matches;
   if (mobileView) {
     return (
