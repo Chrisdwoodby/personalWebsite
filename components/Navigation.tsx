@@ -30,20 +30,20 @@ export default function Navigation(props:any) {
     props.viewPortfolio(true);
     props.renderPage()
   }
-//   const mql = window.matchMedia('(max-width: 600px)');
-//   let mobileView = mql.matches;
-//   if (mobileView) {
-//     return (
-//         <div id="mobile">
-//         <ul >
-//           <li onClick={renderAbout}>about</li>
-//           <li onClick={renderContact}>contact</li>
-//           <li onClick={renderPortfolio}>portfolio</li>
-//           <li onClick={renderSkills}>skills</li>
-//         </ul>
-//       </div>
-//     );
-//   } else {
+  const mql = window.matchMedia('(max-width: 300px)');
+  let mobileView = mql.matches;
+  if (mobileView) {
+    return (
+        <div id="mobile">
+        <ul >
+          <li onClick={renderAbout}>about</li>
+          <li onClick={renderContact}>contact</li>
+          <li onClick={renderPortfolio}>portfolio</li>
+          <li onClick={renderSkills}>skills</li>
+        </ul>
+      </div>
+    );
+  } else {
     return (
         <div id="desktop">
         <ul >
@@ -54,5 +54,5 @@ export default function Navigation(props:any) {
         </ul>
       </div>
     );
-//   }
+  }
 }
