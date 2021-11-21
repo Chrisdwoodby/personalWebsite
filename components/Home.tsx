@@ -28,11 +28,11 @@ const Home = function() {
   
   return (
     <div>
-      <h1 id="name">Christopher Woodby 
+      {/* <h1 id="name">Christopher Woodby 
         <span id="loader__dot">.</span>
         <span id="loader__dot">.</span>
         <span id="loader__dot">.</span>
-      </h1>
+      </h1> */}
       <Navigation viewPortfolio={viewPortfolio} viewContact={viewContact}
                   viewAbout={viewAbout} viewSkills={viewSkills} renderPage={renderPage}/>
       {renderPage()}
