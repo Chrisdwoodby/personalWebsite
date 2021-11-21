@@ -30,7 +30,18 @@ module.exports = {
         options: {
           name: '/public/icons/[name].[ext]'
         }
-    }
+    },
+    {
+        test: /\.(mov|mp4)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name]'
+            }
+          },
+        ],
+      }
     ],
   },
   devtool: 'eval-source-map'
