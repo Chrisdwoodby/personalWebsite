@@ -1,5 +1,8 @@
 import { propTypes } from 'react-bootstrap/esm/Image';
 import { render } from 'react-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 
 export default function Navigation(props:any) {
   function renderAbout() {
@@ -34,25 +37,39 @@ export default function Navigation(props:any) {
   let mobileView = mql.matches;
   if (mobileView) {
     return (
-        <div id="mobile">
-        <ul >
-          <li onClick={renderAbout}>about</li>
-          <li onClick={renderContact}>contact</li>
-          <li onClick={renderPortfolio}>portfolio</li>
-          <li onClick={renderSkills}>skills</li>
-        </ul>
-      </div>
+        <div>
+          <h1 id="name">Christopher Woodby 
+            <span id="loader__dot">.</span>
+            <span id="loader__dot">.</span>
+            <span id="loader__dot">.</span>
+          </h1>
+          <div id="mobile">
+            <ul >
+              <li id="topview" onClick={renderAbout}>about</li>
+              <li id="topview" onClick={renderContact}>contact</li>
+              <li id="topview" onClick={renderPortfolio}>portfolio</li>
+              <li id="topview" onClick={renderSkills}>skills</li>
+            </ul>
+          </div>
+        </div>
     );
   } else {
     return (
-        <div id="desktop">
-        <ul >
-          <li onClick={renderAbout}>about</li>
-          <li onClick={renderContact}>contact</li>
-          <li onClick={renderPortfolio}>portfolio</li>
-          <li onClick={renderSkills}>skills</li>
-        </ul>
-      </div>
+      <Navbar id="desktop" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Christopher Woodby
+            <span id="loader__dot">.</span>
+            <span id="loader__dot">.</span>
+            <span id="loader__dot">.</span>
+          </Navbar.Brand>
+          <Nav className="me-auto">
+          <Nav.Link onClick={renderAbout}>About</Nav.Link>  
+            <Nav.Link onClick={renderContact}>Contact</Nav.Link>
+            <Nav.Link onClick={renderPortfolio}>Portfolio</Nav.Link>
+            <Nav.Link onClick={renderSkills}>Skills</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
     );
   }
 }
