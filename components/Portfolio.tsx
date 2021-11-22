@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import flight from '../dist/flight.png';
 // import flighttracker from '../dist/flighttracker.mov';
 import movies from '../dist/movies.png';
-import movie from '../dist/movie.mov';
+// import movie from '../dist/movie.mov';
 import transit from '../dist/transit.png';
 import Col from 'react-bootstrap/Col';
 
@@ -41,7 +41,7 @@ export default function Portfolio() {
                 <img id="test" src={movies}/>
               </div>
               <div id="back">
-                <video id="preview" playsInline loop autoPlay muted type="video/mp4" src={movie}/>
+                {/* <video id="preview" playsInline loop autoPlay muted type="video/mp4" src={movie}/> */}
               </div>
             </div>
           </div>
