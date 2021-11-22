@@ -4,7 +4,7 @@ import mysql from '../dist/mysql.png';
 import react from '../dist/react.png';
 import node from '../dist/node.png';
 import typescript from '../dist/typescript.png';
-import Row from 'react-bootstrap/Row';
+import html from '../dist/html.png';
 
 export default function Skills() {
   return (
@@ -13,6 +13,7 @@ export default function Skills() {
         <img id="skill" src={js}/>
         <img id="skill" src={typescript}/>
         <img id="skill" src={react}/>
+        <img id="skill" src={html}/>
         <img id="skill" src={node}/>
         <img id="skill" src={mysql}/>
       </div>
