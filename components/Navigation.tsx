@@ -44,7 +44,7 @@ export default function Navigation(props:any) {
             <span id="loader__dot">.</span>
           </h1>
           <div id="mobile">
-            <ul >
+            <ul id="list">
               <li id="topview" onClick={renderAbout}>about</li>
               <li id="topview" onClick={renderContact}>contact</li>
               <li id="topview" onClick={renderPortfolio}>portfolio</li>

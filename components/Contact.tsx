@@ -8,42 +8,44 @@ import Col from 'react-bootstrap/Col';
 
 export default function Contact() {
   return (
-    <div id="contact">
+    <div>
+      <Row>
       <Row id="contact">
         <Col>
           <Row id="contact">
             <img id="contacts" src={linkedin}/>
           </Row>
-          <Row id="contact">
+          <Row>
             <p>https://www.linkedin.com/in/christopher-woodby-766a88202/</p>
           </Row>
         </Col>
         <Col>
           <Row id="contact">
-            <img id="contacts" src={email}/>
+            <img id="contacts" src={git}/>
           </Row>
-          <Row id="contact">
-            <p>chrisdwoodby@gmail.com</p>
+          <Row>
+            <p>https://github.com/Chrisdwoodby</p>
           </Row>
         </Col>
       </Row>
       <Row id="contact">
         <Col>
           <Row id="contact">
-            <img id="contacts" src={git}/>
+            <img id="contacts" src={email}/>
           </Row>
-          <Row id="contact">
-          <p>https://github.com/Chrisdwoodby</p>
+          <Row>
+            <p>Chrisdwoodby@gmail.com</p>
           </Row>
         </Col>
         <Col>
           <Row id="contact">
             <img id="contacts" src={phone}/>
           </Row>
-          <Row id="contact">
-            <p>512-745-3863</p>
+          <Row>
+            <p id="phoneNumber">512-745-3863</p>
           </Row>
         </Col>
+      </Row>
       </Row>
     </div>
   )

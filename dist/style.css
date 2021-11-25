@@ -3,20 +3,33 @@
   padding-bottom: 500px;
 }
 #desktop {
-    background: transparent;
-    background-color: black;
-    display: flex;
-    position: relative;
-    z-index: 2;
-    justify-content: space-between;
-    width: 100%;
-    top: 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: transparent;
+  background-color: black;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
 }
  #mobile {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   justify-content: center;
   display: flex;
   margin: auto;
   text-align: center;
+  color: white;
+}
+#list {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
 }
 
 @keyframes blink {50% { color: transparent }}
@@ -40,8 +53,10 @@ span {
   justify-content: center;
   position: relative;
   text-align: center;
+  margin: auto;
 }
 #col {
+  font-family: sans-serif;
   width: 100%;
   justify-content: center;
   position: relative;
@@ -51,7 +66,6 @@ span {
 #portfolio {
   color: white;
   padding-top: 100px;
-  /* display: flex; */
   justify-content: center;
   position: relative;
 } 
@@ -113,16 +127,23 @@ span {
   padding: 20px;
 }
 #skills {
+  font-family: sans-serif;
   margin-left: 100px;
   margin-right: 100px;
 }
+/* -------------contact page--------------- */
 #contact {
+  font-family: sans-serif;
   justify-content: center;
-  position: relative;
   text-align: center;
+  color: #b19f9e;
 }
 #contacts {
-  padding: 75px;
+  padding: 50px;
   height: 300px;
   width: 300px;
+}
+#phoneNumber {
+  padding-left: 200px;
+  padding-right: 200px;
 }
