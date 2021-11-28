@@ -1,10 +1,10 @@
-import Container from 'react-bootstrap/Container';
 import js from '../dist/js.png';
 import mysql from '../dist/mysql.png';
 import react from '../dist/react.png';
 import node from '../dist/node.png';
 import typescript from '../dist/typescript.png';
 import html from '../dist/html.png';
+import aws from '../dist/aws.png';
 
 export default function Skills() {
   return (
@@ -16,6 +16,7 @@ export default function Skills() {
         <img id="skill" src={html}/>
         <img id="skill" src={node}/>
         <img id="skill" src={mysql}/>
+        <img id="aws" src={aws}/>
       </div>
   )
 }

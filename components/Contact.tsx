@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contact_page">
       <Row>
       <Row id="contact">
         <Col>
@@ -16,7 +16,9 @@ export default function Contact() {
             <img id="contacts" src={linkedin}/>
           </Row>
           <Row>
-            <p>https://www.linkedin.com/in/christopher-woodby-766a88202/</p>
+            <a id="link" href="https://www.linkedin.com/in/christopher-woodby-766a88202/">
+              Coonect with me on LinkedIn
+            </a>
           </Row>
         </Col>
         <Col>
@@ -24,7 +26,7 @@ export default function Contact() {
             <img id="contacts" src={git}/>
           </Row>
           <Row>
-            <p>https://github.com/Chrisdwoodby</p>
+            <a id="link" href="https://github.com/Chrisdwoodby">View my work</a>
           </Row>
         </Col>
       </Row>

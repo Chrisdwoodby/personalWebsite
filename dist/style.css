@@ -24,12 +24,18 @@
   margin: auto;
   text-align: center;
   color: white;
+  display: inline-flex;
+  flex-direction: column;
+}
+#mobile_overview {
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
 }
 #list {
   list-style-type: none;
-  text-align: center;
   justify-content: center;
-  font-family: sans-serif;
 }
 
 @keyframes blink {50% { color: transparent }}
@@ -48,6 +54,22 @@ span {
   padding-bottom: 500px;
 }
 /*-------------- Portfolio--------------- */
+#portfolio {
+  animation:fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#portfolio.none {
+  display:none
+}
 #row {
   width: 100%;
   justify-content: center;
@@ -126,17 +148,38 @@ span {
   width: 300px;
   padding: 20px;
 }
+#aws {
+  height: 250px;
+  width: 300px;
+  padding: 20px;
+}
 #skills {
   font-family: sans-serif;
   margin-left: 100px;
   margin-right: 100px;
+}
+#skills {
+  animation:fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#skills.none {
+  display:none
 }
 /* -------------contact page--------------- */
 #contact {
   font-family: sans-serif;
   justify-content: center;
   text-align: center;
-  color: #b19f9e;
+  color: white;
 }
 #contacts {
   padding: 50px;
@@ -146,4 +189,72 @@ span {
 #phoneNumber {
   padding-left: 200px;
   padding-right: 200px;
+}
+#link {
+  padding-left: 200px;
+  padding-right: 200px; 
+  text-decoration: none;
+  color: white;
+}
+#contact_page {
+  animation:fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#contact_page.none {
+  display:none
+}
+/* -----------About----------- */
+#Container {
+  animation:fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#Container.none {
+  display:none
+}
+#Container {
+  color: white;
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  #article {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  #about {
+    padding-top: 100px;
+  }
+}
+#about {
+  padding-top: 100px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+#headshot {
+  height: 400px;
+  width: 400px;
 }

@@ -37,19 +37,19 @@ export default function Navigation(props:any) {
   let mobileView = mql.matches;
   if (mobileView) {
     return (
-        <div>
+        <div id="mobile_overview">
           <h1 id="name">Christopher Woodby 
             <span id="loader__dot">.</span>
             <span id="loader__dot">.</span>
             <span id="loader__dot">.</span>
           </h1>
           <div id="mobile">
-            <ul id="list">
-              <li id="topview" onClick={renderAbout}>about</li>
-              <li id="topview" onClick={renderContact}>contact</li>
-              <li id="topview" onClick={renderPortfolio}>portfolio</li>
-              <li id="topview" onClick={renderSkills}>skills</li>
-            </ul>
+            {/* <ul id="list"> */}
+              <h3 id="topview" onClick={renderAbout}>about</h3>
+              <h3 id="topview" onClick={renderContact}>contact</h3>
+              <h3 id="topview" onClick={renderPortfolio}>portfolio</h3>
+              <h3 id="topview" onClick={renderSkills}>skills</h3>
+            {/* </ul> */}
           </div>
         </div>
     );
