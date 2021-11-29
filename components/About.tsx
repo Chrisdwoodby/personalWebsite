@@ -1,4 +1,5 @@
 import headshot from '../dist/headshot.png';
+import medium from '../dist/medium.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -6,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 export default function About() {
   return (
     <Container id="Container">
-      <h1>about</h1>
+      <h1>Full Stack Developer</h1>
       <Row id="article">
         <Col id="about">
             I have a passion for creating intuitive and beautiful web applications and
@@ -28,10 +29,14 @@ export default function About() {
       </Row>
       <Row id="article">
         <Col id="about">
-          snippet of medium article here
+          <h2>A Transition to Tech</h2>
+          <p>medium.com</p>
+          <p>a world where knowledge is so easily accessible i can be easy
+            to forgot how valuable it can be whenever a tenacious and determined
+            attitude is paired with it.</p>
         </Col>
         <Col id="about">
-          My story about where i came from and how i found my passion for programming.
+          <img id="medium" src={medium}/>
         </Col>
       </Row>
     </Container>

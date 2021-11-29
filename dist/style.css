@@ -44,7 +44,7 @@
 #loader__dot:nth-child(3) { animation-delay: 500ms }
 
 #name {
-  color: #2e9cca;
+  color: white;
 }
 span {
   color: white;
@@ -236,6 +236,7 @@ span {
   text-align: center;
   position: relative;
   margin: auto;
+  padding-top: 100px;
 }
 @media (max-width: 500px) {
   #article {
@@ -255,6 +256,11 @@ span {
   align-items: center;
 }
 #headshot {
+  height: 450px;
+  width: 410px;
+}
+#medium {
   height: 400px;
   width: 400px;
+  border-radius: 15px;
 }

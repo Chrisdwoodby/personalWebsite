@@ -5,6 +5,7 @@ import node from '../dist/node.png';
 import typescript from '../dist/typescript.png';
 import html from '../dist/html.png';
 import aws from '../dist/aws.png';
+import docker from '../dist/docker.png';
 
 export default function Skills() {
   return (
@@ -17,6 +18,7 @@ export default function Skills() {
         <img id="skill" src={node}/>
         <img id="skill" src={mysql}/>
         <img id="aws" src={aws}/>
+        <img id="skill" src={docker}/>
       </div>
   )
 }
