@@ -267,6 +267,8 @@ span {
     padding-top: 100px;
     justify-content: center;
     margin: auto;
+    text-align: center;
+    align-items: center;
   }
 }
 #about {
