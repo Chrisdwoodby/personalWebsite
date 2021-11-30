@@ -158,8 +158,8 @@ span {
   padding: 50px;
 }
 #skills {
-  margin-left: 100px;
-  margin-right: 100px;
+/*   margin-left: 100px;
+  margin-right: 100px; */
   width: 100%;
   position: relative;
   justify-content: center;
@@ -192,27 +192,23 @@ span {
   padding: 50px;
   height: 300px;
   width: 300px;
-  padding-left: 50px;
-  padding-right: 50px; 
 }
 #mail {
-  padding-left: 50px;
-  padding-right: 50px;
   padding: 50px;
   height: 250px;
   width: 300px;
 }
 #phoneNumber {
-/*   padding-left: 200px;
-  padding-right: 200px; */
+  padding-left: 100px;
+  padding-right: 100px;
   color: grey;
 }
 #email {
   color: grey;
 }
 #link {
-/*   padding-left: 200px;
-  padding-right: 200px;  */
+  padding-left: 100px;
+  padding-right: 100px; 
   text-decoration: none;
   color: grey;
 }
