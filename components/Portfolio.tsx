@@ -1,9 +1,10 @@
 import Row from 'react-bootstrap/Row';
 import flight from '../dist/public/icons/flight.png';
-// import flighttracker from '../dist/flighttracker.mov';
+import flighttracker from '../dist/flight.mov';
 import movies from '../dist/public/icons/movies.png';
 import movie from '../dist/public/icons/nebulamovies.mov';
 import transit from '../dist/public/icons/transit.png';
+import bus from '../dist/public/icons/transit.mov';
 import Col from 'react-bootstrap/Col';
 
 export default function Portfolio() {
@@ -25,7 +26,7 @@ export default function Portfolio() {
                 <img id="test" src={flight}/>
               </div>
               <div id="back">
-                {/* <video id="preview"  playsInline loop autoPlay muted type="video/mp4" src={flighttracker}/> */}
+                <video id="preview"  playsInline loop autoPlay muted type="video/mp4" src={flighttracker}/>
               </div>
             </div>
           </div>
@@ -63,7 +64,7 @@ export default function Portfolio() {
                 <img id="test" src={transit}/>
               </div>
               <div id="back">
-                about transit management
+                 <video id="preview" playsInline loop autoPlay muted type="video/mp4" src={bus}/>
               </div>
             </div>
           </div>
