@@ -158,9 +158,12 @@ span {
   padding: 50px;
 }
 #skills {
-  font-family: sans-serif;
   margin-left: 100px;
   margin-right: 100px;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  margin: auto;
 }
 #skills {
   animation:fadeIn 1s linear;
@@ -189,12 +192,12 @@ span {
   padding: 50px;
   height: 300px;
   width: 300px;
-  padding-left: 100px;
-  padding-right: 100px; 
+  padding-left: 50px;
+  padding-right: 50px; 
 }
 #mail {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding: 50px;
   height: 250px;
   width: 300px;
