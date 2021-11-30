@@ -1,5 +1,3 @@
-import { propTypes } from 'react-bootstrap/esm/Image';
-import { render } from 'react-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
