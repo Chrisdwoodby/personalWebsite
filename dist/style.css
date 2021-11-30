@@ -264,6 +264,7 @@ span {
     position: relative;
   }
   #about {
+    width: 100%;
     padding-top: 100px;
     justify-content: center;
     margin: auto;
