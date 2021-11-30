@@ -12,7 +12,7 @@ export default function About() {
         <Col id="about">
           <h2 id="title">Full Stack Developer</h2>
           <h3 id="location">Austin | Texas</h3>
-          <p>
+          <p id="description">
             Im Chris, a tenacious software engineer with a passion for creating
             intuitive and beautiful web applications. I rely on my people first
             mindset and collaboration to aid in the betterment of my community
