@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row';
 import flight from '../dist/public/icons/flight.png';
-import flighttracker from '../dist/flight.mov';
+import flighttracker from '../dist/public/icons/flight.mov';
 import movies from '../dist/public/icons/movies.png';
 import movie from '../dist/public/icons/nebulamovies.mov';
 import transit from '../dist/public/icons/transit.png';
