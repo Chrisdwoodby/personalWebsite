@@ -16,7 +16,7 @@ export default function Contact() {
             <img id="contacts" src={linkedin}/>
           </Row>
           <Row>
-            <a id="link" href="https://www.linkedin.com/in/christopher-woodby-766a88202/">
+            <a id="link" target="_blank" href="https://www.linkedin.com/in/christopher-woodby-766a88202/">
               Connect with me on LinkedIn
             </a>
           </Row>
@@ -26,7 +26,7 @@ export default function Contact() {
             <img id="contacts" src={git}/>
           </Row>
           <Row>
-            <a id="link" href="https://github.com/Chrisdwoodby">View my work</a>
+            <a id="link" target="_blank" href="https://github.com/Chrisdwoodby">View my work</a>
           </Row>
         </Col>
       </Row>
