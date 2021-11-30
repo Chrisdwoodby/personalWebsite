@@ -204,8 +204,8 @@ span {
   color: grey;
 }
 #link {
-  padding-left: 200px;
-  padding-right: 200px; 
+/*   padding-left: 200px;
+  padding-right: 200px;  */
   text-decoration: none;
   color: grey;
 }
