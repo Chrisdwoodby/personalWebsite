@@ -1,11 +1,11 @@
-import js from '../dist/js.png';
-import mysql from '../dist/mysql.png';
-import react from '../dist/react.png';
-import node from '../dist/node.png';
-import typescript from '../dist/typescript.png';
-import html from '../dist/html.png';
-import aws from '../dist/aws.png';
-import docker from '../dist/docker.png';
+import js from '../dist/public/icons/js.png';
+import mysql from '../dist/public/icons/mysql.png';
+import react from '../dist/public/icons/react.png';
+import node from '../dist/public/icons/node.png';
+import typescript from '../dist/public/icons/typescript.png';
+import html from '../dist/public/icons/html.png';
+import aws from '../dist/public/icons/aws.png';
+import docker from '../dist/public/icons/docker.png';
 
 export default function Skills() {
   return (

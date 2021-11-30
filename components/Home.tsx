@@ -4,6 +4,7 @@ import Portfolio from './Portfolio.tsx';
 import Skills from './Skills.tsx';
 import About from './About.tsx';
 import Contact from './Contact.tsx';
+import Footer from './Footer.tsx';
 
 const Home = function() {
   const [portfolio, viewPortfolio] = useState(false);
@@ -31,6 +32,7 @@ const Home = function() {
       <Navigation viewPortfolio={viewPortfolio} viewContact={viewContact}
                   viewAbout={viewAbout} viewSkills={viewSkills} renderPage={renderPage}/>
       {renderPage()}
+      <Footer/>
     </div>
   )
 }

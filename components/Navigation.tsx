@@ -39,17 +39,13 @@ export default function Navigation(props:any) {
     return (
         <div id="mobile_overview">
           <h1 id="name">Christopher Woodby 
-            <span id="loader__dot">.</span>
-            <span id="loader__dot">.</span>
-            <span id="loader__dot">.</span>
+            <span id="loader__dot">|</span>
           </h1>
           <div id="mobile">
-            {/* <ul id="list"> */}
-              <h3 id="topview" onClick={renderAbout}>about</h3>
-              <h3 id="topview" onClick={renderContact}>contact</h3>
-              <h3 id="topview" onClick={renderPortfolio}>portfolio</h3>
-              <h3 id="topview" onClick={renderSkills}>skills</h3>
-            {/* </ul> */}
+            <h4 id="topview" onClick={renderAbout}>about</h4>
+            <h4 id="topview" onClick={renderContact}>contact</h4>
+            <h4 id="topview" onClick={renderPortfolio}>portfolio</h4>
+            <h4 id="topview" onClick={renderSkills}>skills</h4>
           </div>
         </div>
     );
@@ -58,9 +54,7 @@ export default function Navigation(props:any) {
       <Navbar id="desktop" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Christopher Woodby
-            <span id="loader__dot">.</span>
-            <span id="loader__dot">.</span>
-            <span id="loader__dot">.</span>
+            <span id="loader__dot">|</span>
           </Navbar.Brand>
           <Nav className="me-auto">
           <Nav.Link onClick={renderAbout}>About</Nav.Link>  

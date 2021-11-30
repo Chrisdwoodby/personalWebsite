@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
-import git from '../dist/git.png';
-import linkedin from '../dist/linkedin.png';
-import email from '../dist/email.png';
-import phone from '../dist/phone.png';
+import git from '../dist/public/icons/git.png';
+import linkedin from '../dist/public/icons/linkedin.png';
+import email from '../dist/public/icons/email.png';
+import phone from '../dist/public/icons/phone.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -17,7 +17,7 @@ export default function Contact() {
           </Row>
           <Row>
             <a id="link" href="https://www.linkedin.com/in/christopher-woodby-766a88202/">
-              Coonect with me on LinkedIn
+              Connect with me on LinkedIn
             </a>
           </Row>
         </Col>
@@ -35,7 +35,7 @@ export default function Contact() {
           <Row id="contact">
             <img id="contacts" src={email}/>
           </Row>
-          <Row>
+          <Row id="email">
             <p>Chrisdwoodby@gmail.com</p>
           </Row>
         </Col>

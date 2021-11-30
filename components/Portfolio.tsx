@@ -1,9 +1,9 @@
 import Row from 'react-bootstrap/Row';
-import flight from '../dist/flight.png';
+import flight from '../dist/public/icons/flight.png';
 // import flighttracker from '../dist/flighttracker.mov';
-import movies from '../dist/movies.png';
+import movies from '../dist/public/icons/movies.png';
 // import movie from '../dist/movie.mov';
-import transit from '../dist/transit.png';
+import transit from '../dist/public/icons/transit.png';
 import Col from 'react-bootstrap/Col';
 
 export default function Portfolio() {
@@ -13,7 +13,7 @@ export default function Portfolio() {
         <Col id="col">
         <Row id="project-name">
             <h3>Flight Tracker</h3>
-            <p>React | JavaScript | MySQL | Bootstrap | Webpack | API's</p>
+            <p id="techs">React | JavaScript | MySQL | Bootstrap | Webpack | API's</p>
         </Row>
         <Row id="project-name">
           <div id="main">
@@ -31,7 +31,7 @@ export default function Portfolio() {
         <Col id="col">
         <Row id="project-name">
           <h3>Nebula Movies</h3>
-          <p>React | Javascript | Bootstrap | Webpack</p>
+          <p id="techs">React | Javascript | Bootstrap | Webpack</p>
         </Row>
         <Row id="project-name">
           <div id="main">
@@ -49,7 +49,7 @@ export default function Portfolio() {
         <Col id="col">
         <Row id="project-name">
           <h3>Transit Management</h3>
-          <p>React | Javascript | Bootstrap | Webpack</p>
+          <p id="techs">React | Javascript | Bootstrap | Webpack</p>
         </Row>
         <Row id="project-name">
           <div id="main">
