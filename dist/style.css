@@ -244,6 +244,8 @@ span {
   display:none
 }
 #Container {
+  width: 100%;
+  position: relative;
   color: white;
   font-family: sans-serif;
   justify-content: center;
