@@ -189,6 +189,8 @@ span {
   padding: 50px;
   height: 300px;
   width: 300px;
+  padding-left: 100px;
+  padding-right: 100px; 
 }
 #mail {
   padding: 50px;
