@@ -158,17 +158,20 @@ span {
   padding: 50px;
 }
 #skills {
-  display: inline-flex;
-  flex-direction: column;
-  margin: auto;
   width: 100%;
-  justify-content: center;
-  position: relative;
-  
-/*   width: 100%;
   position: relative;
   justify-content: center;
-  margin: auto; */
+  margin: auto;
+}
+@media (max-width: 500px) {
+  #skills {
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+  }
 }
 #skills {
   animation:fadeIn 1s linear;
