@@ -294,8 +294,9 @@ span {
   border-radius: 15px;
 }
 #headshot {
-  height: 450px;
-  width: 410px;
+   height: 270px;
+  width: 300px;
+  border-radius: 15px;
 }
 #medium:hover {
   -webkit-transform: scale(1.1);
