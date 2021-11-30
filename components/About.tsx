@@ -22,7 +22,7 @@ export default function About() {
           </p>
         </Col>
         <Col id="about">
-          <img id="headshot" src={medium}/>
+          <img id="medium" src={medium}/>
         </Col>
       </Row>
       <Row id="article">
