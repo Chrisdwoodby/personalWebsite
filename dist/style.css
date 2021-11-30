@@ -260,6 +260,8 @@ span {
     margin: auto;
     width: 100%;
     text-align: center;
+    justify-content: center;
+    position: relative;
   }
   #about {
     padding-top: 100px;
