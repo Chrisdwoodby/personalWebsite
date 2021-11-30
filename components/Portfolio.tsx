@@ -14,6 +14,9 @@ export default function Portfolio() {
         <Row id="project-name">
             <h3>Flight Tracker</h3>
             <p id="techs">React | JavaScript | MySQL | Bootstrap | Webpack | API's</p>
+            <p>Flight tracker which is capable of displaying real time flight data while
+              also providing the user with a hashed and secure log in/sign up.
+            </p>
         </Row>
         <Row id="project-name">
           <div id="main">
@@ -31,7 +34,8 @@ export default function Portfolio() {
         <Col id="col">
         <Row id="project-name">
           <h3>Nebula Movies</h3>
-          <p id="techs">React | Javascript | Bootstrap | Webpack</p>
+          <p id="techs">React | Javascript | API's | Webpack | Babel</p>
+          <p>Single page movie data application which is capable of sorting and organizing GET requests based on user input.</p>
         </Row>
         <Row id="project-name">
           <div id="main">
@@ -49,7 +53,8 @@ export default function Portfolio() {
         <Col id="col">
         <Row id="project-name">
           <h3>Transit Management</h3>
-          <p id="techs">React | Javascript | Bootstrap | Webpack</p>
+          <p id="techs">React | Javascript | Bootstrap | Webpack | Babel | AWS</p>
+          <p>Web presence for a local consulting business utilizing AWS EC2 and Route 53.</p>
         </Row>
         <Row id="project-name">
           <div id="main">
