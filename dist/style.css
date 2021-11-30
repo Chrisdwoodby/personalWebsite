@@ -265,6 +265,8 @@ span {
   }
   #about {
     padding-top: 100px;
+    justify-content: center;
+    margin: auto;
   }
 }
 #about {
