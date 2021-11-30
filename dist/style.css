@@ -257,6 +257,9 @@ span {
   #article {
     display: inline-flex;
     flex-direction: column;
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
   #about {
     padding-top: 100px;
