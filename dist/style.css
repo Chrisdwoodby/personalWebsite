@@ -158,12 +158,17 @@ span {
   padding: 50px;
 }
 #skills {
-/*   margin-left: 100px;
-  margin-right: 100px; */
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
   width: 100%;
+  justify-content: center;
+  position: relative;
+  
+/*   width: 100%;
   position: relative;
   justify-content: center;
-  margin: auto;
+  margin: auto; */
 }
 #skills {
   animation:fadeIn 1s linear;
@@ -274,10 +279,6 @@ span {
     text-align: center;
     align-items: center;
   } */
-/*   #headshot {
-    height: 450px;
-    width: 410px;
-  } */
 }
 #about {
   padding-top: 100px;
@@ -287,14 +288,14 @@ span {
   text-align: center;
   align-items: center;
 }
-#headshot {
-  height: 450px;
-  width: 410px;
-}
 #medium {
   height: 270px;
   width: 300px;
   border-radius: 15px;
+}
+#headshot {
+  height: 450px;
+  width: 410px;
 }
 #medium:hover {
   -webkit-transform: scale(1.1);
