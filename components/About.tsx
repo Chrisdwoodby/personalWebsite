@@ -3,6 +3,7 @@ import medium from '../dist/public/icons/medium.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import resume from "../dist/ChrisWoodbyResume.pdf";
 
 export default function About() {
   return (
@@ -20,6 +21,7 @@ export default function About() {
             take the problems of tomorrow into account, and it is my goal to
             assist in the movement towards future proofing our society. 
           </p>
+          <a id="resume" href={resume} download>Download Resume</a>
         </Col>
         <Col id="about">
           <img id="headshot" src={headshot}/>
@@ -29,9 +31,9 @@ export default function About() {
         <Col id="about">
           <h2 id="title">A Transition to Tech</h2>
           <p id="location">medium.com</p>
-          <p>a world where knowledge is so easily accessible i can be easy
+          <p>"A world where knowledge is so easily accessible i can be easy
             to forgot how valuable it can be whenever a tenacious and determined
-            attitude is paired with it.</p>
+            attitude is paired with it."</p>
         </Col>
         <Col id="about">
           <a href="https://medium.com/@chrisdwoodby/a-transition-to-tech-211daea6a8cf"
