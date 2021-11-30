@@ -10,10 +10,9 @@ import docker from '../dist/public/icons/docker.png';
 export default function Skills() {
   return (
       <div id="skills">
-        <h1>Skills</h1>
         <img id="skill" src={js}/>
         <img id="skill" src={typescript}/>
-        <img id="skill" src={react}/>
+        <img id="react" src={react}/>
         <img id="skill" src={html}/>
         <img id="skill" src={node}/>
         <img id="skill" src={mysql}/>

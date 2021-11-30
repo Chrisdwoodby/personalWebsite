@@ -1,7 +1,4 @@
 /* ---------------nav header-------------- */
-#home {
-  padding-bottom: 500px;
-}
 #desktop {
   font-family: sans-serif;
   text-transform: uppercase;
@@ -52,7 +49,7 @@ span {
 }
 #app {
   background-color: #19181a;
-  padding-bottom: 500px;
+  padding-bottom: 200px;
 }
 /*-------------- Portfolio--------------- */
 #portfolio {
@@ -148,12 +145,17 @@ span {
 #skill {
   height: 300px;
   width: 300px;
-  padding: 20px;
+  padding: 50px;
 }
 #aws {
   height: 250px;
   width: 300px;
-  padding: 20px;
+  padding: 50px;
+}
+#react {
+  height: 275px;
+  width: 300px;
+  padding: 50px;
 }
 #skills {
   font-family: sans-serif;
@@ -186,6 +188,11 @@ span {
 #contacts {
   padding: 50px;
   height: 300px;
+  width: 300px;
+}
+#mail {
+  padding: 50px;
+  height: 250px;
   width: 300px;
 }
 #phoneNumber {
@@ -269,6 +276,14 @@ span {
   height: 270px;
   width: 300px;
   border-radius: 15px;
+}
+#medium:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  outline: none;
+  border-color: white;
+  box-shadow: 0 0 10px white;
 }
 #title {
   text-transform: uppercase;
