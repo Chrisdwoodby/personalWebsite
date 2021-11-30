@@ -161,7 +161,8 @@ span {
   width: 100%;
   position: relative;
   justify-content: center;
-  margin: auto;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 @media (max-width: 500px) {
   #skills {
