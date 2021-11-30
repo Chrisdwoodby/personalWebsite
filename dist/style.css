@@ -193,13 +193,15 @@ span {
   padding-right: 100px; 
 }
 #mail {
+  padding-left: 100px;
+  padding-right: 100px;
   padding: 50px;
   height: 250px;
   width: 300px;
 }
 #phoneNumber {
-  padding-left: 200px;
-  padding-right: 200px;
+/*   padding-left: 200px;
+  padding-right: 200px; */
   color: grey;
 }
 #email {
