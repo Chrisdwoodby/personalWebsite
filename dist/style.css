@@ -275,14 +275,6 @@ span {
     justify-content: center;
     position: relative;
   }
-/*   #about {
-    width: 100%;
-    padding-top: 100px;
-    justify-content: center;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-  } */
 }
 #about {
   padding-top: 100px;
@@ -318,4 +310,14 @@ span {
 #location {
   color: gray;
   padding-bottom: 25px;
+}
+#description {
+  padding-bottom: 25px;
+}
+#resume {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
