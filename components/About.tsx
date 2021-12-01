@@ -13,13 +13,13 @@ export default function About() {
           <h2 id="title">Full Stack Developer</h2>
           <h3 id="location">Austin | Texas</h3>
           <p id="description">
-            Im Chris, a tenacious software engineer with a passion for creating
-            intuitive and beautiful web applications. I rely on my people first
+            I'm Chris, a tenacious software engineer with a passion for creating
+            intuitive and beautiful web applications. I rely on my people-first
             mindset and collaboration to aid in the betterment of my community
-            through technology. With to tools and resources available to us 
+            through technology. With the tools and resources available to us 
             in a constant state of evolution, the solutions of today need to
             take the problems of tomorrow into account, and it is my goal to
-            assist in the movement towards future proofing our society. 
+            assist in the movement towards future-proofing our society. 
           </p>
           <a id="resume" href={resume} download>Download Resume</a>
         </Col>
@@ -31,8 +31,8 @@ export default function About() {
         <Col id="about">
           <h2 id="title">A Transition to Tech</h2>
           <p id="location">medium.com</p>
-          <p>"A world where knowledge is so easily accessible i can be easy
-            to forgot how valuable it can be whenever a tenacious and determined
+          <p>"In a world where knowledge is so easily accessible it can be easy
+            to forget how valuable it can be whenever a tenacious and determined
             attitude is paired with it."</p>
         </Col>
         <Col id="about">
