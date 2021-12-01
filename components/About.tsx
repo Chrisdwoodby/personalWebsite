@@ -31,9 +31,11 @@ export default function About() {
         <Col id="about">
           <h2 id="title">A Transition to Tech</h2>
           <p id="location">medium.com</p>
-          <p>"In a world where knowledge is so easily accessible it can be easy
-            to forget how valuable it can be whenever a tenacious and determined
-            attitude is paired with it."</p>
+          <p>
+            "In a world where knowledge is so easily accessible, it can be easy to forget
+            just how valuable it can be whenever a tenacious and determined attitude is paired
+            with boundless knowledge."
+          </p>
         </Col>
         <Col id="about">
           <a href="https://medium.com/@chrisdwoodby/a-transition-to-tech-211daea6a8cf"
