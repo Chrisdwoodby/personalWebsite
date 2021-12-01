@@ -36,7 +36,7 @@ export default function Navigation(props:any) {
   if (mobileView) {
     return (
         <div id="mobile_overview">
-          <h1 id="name">Christopher Woodby 
+          <h1 id="name" onClick={renderAbout}>Christopher Woodby 
             <span id="loader__dot">|</span>
           </h1>
           <div id="mobile">
@@ -51,7 +51,7 @@ export default function Navigation(props:any) {
     return (
       <Navbar id="desktop" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Christopher Woodby
+          <Navbar.Brand href="#home" onClick={renderAbout}>Christopher Woodby
             <span id="loader__dot">|</span>
           </Navbar.Brand>
           <Nav className="me-auto">
